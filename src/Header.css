@@ -1,0 +1,29 @@
+header {
+  background-color: #222;
+  padding: 0 3rem;
+  color: white;
+  background: rgba(140, 140, 140, 0.5);
+  text-align: left;
+  position: relative;
+  background: linear-gradient(135deg, #ccc 0%, #999 50%, #ccc 100%);
+}
+header a {
+  display: inline-block;
+  padding: 0.7rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  transition: all 100ms;
+  text-shadow: 1px 1px 3px hsla(0, 0%, 35%, 1);
+}
+header a:hover {
+  text-shadow: 2px 2px 4px hsla(0, 0%, 15%, 1);
+}
+header a.active {
+  text-shadow: 3px 3px 15px hsla(0, 0%, 0%, 1);
+}
+header > .title > h1 {
+  font-weight: lighter;
+  font-size: 1.5rem;
+  margin: 0;
+}
