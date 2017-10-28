@@ -1,0 +1,46 @@
+.preview {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background: #ddd;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.preview .title,
+.preview .description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem 0.5rem;
+}
+
+.video {
+  margin-top: 5px;
+  height: 200px;
+  min-width: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.video > iframe {
+  position: absolute;
+}
+
+.thumbnail {
+  min-width: 100%;
+  position: absolute;
+  transition: all 400ms ease-out;
+}
+
+.thumbnail.hidden {
+  opacity: 0.2;
+  filter: blur(5px);
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+  /*display: none !important;*/
+}

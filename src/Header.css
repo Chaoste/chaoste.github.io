@@ -1,6 +1,5 @@
 header {
   background-color: #222;
-  padding: 0 3rem;
   color: white;
   background: rgba(140, 140, 140, 0.5);
   text-align: left;
@@ -9,7 +8,7 @@ header {
 }
 header a {
   display: inline-block;
-  padding: 0.7rem;
+  padding: 0.4rem;
   cursor: pointer;
   text-decoration: none;
   color: white;
@@ -22,8 +21,22 @@ header a:hover {
 header a.active {
   text-shadow: 3px 3px 15px hsla(0, 0%, 0%, 1);
 }
-header > .title > h1 {
+header > .title {
   font-weight: lighter;
-  font-size: 1.5rem;
+  font-size: 0.9em;
   margin: 0;
+  padding-left: 0.2rem;
+}
+
+/* 384px */
+@media only screen and (min-width: 24em) {
+  header a {
+    padding: 0.7rem;
+  }
+}
+/* 576px */
+@media only screen and (min-width: 36em) {
+  header {
+    padding: 0 3rem;
+  }
 }

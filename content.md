@@ -10,6 +10,7 @@ Bachelor:
 - SoSe 15:
   * KnowMin: "Extending DBpedia by Mining structured knowledge from Wikipedia’s tables"
     Apr. 2015–Sep. 2015:  Mining Structured Knowledge from Wikipedia’s Tables
+  * NYC Cab Data
   * 12.06.2015 HERE Hackathon - Connect drivers
 - WiSe 15/16 - SoSe 16:
   * Quickpark
@@ -18,6 +19,7 @@ Bachelor:
 
 - HiWi 2016:
   * MemeTracker
+  * Authorsupport
 
 [ * 16.03.2017 Bosch Hackathon - Overheat ]
 
@@ -26,8 +28,15 @@ Master:
     [* 2016: Machine Intelligence I]
     [* 2017: Machine Intelligence II]
     * Brain Tumor Segmentation (Practical Video Analysis)
+      K3Ziw-hd1g0
     * HPI Taler (Blockchain & BPM)
+      Lu0FDO86XOw
     [* Nature-Inspired Algorithms (final project)]
+
+
+
+TODO: http://notablemind.org/downloadbutton/
+TODO: https://www.npmjs.com/package/react-youtube
 
 Webseiten:
 - http://www.frank-sueltemeyer.com/
