@@ -17,14 +17,14 @@ import projectInfo10 from './projects/10-Authorsupport.json';
 
 class Home extends Component {
   projectInfos = [
-    projectInfo1,
-    projectInfo2,
+    projectInfo8,
     projectInfo3,
-    projectInfo4,
+    projectInfo2,
     projectInfo5,
+    projectInfo4,
+    projectInfo1,
     projectInfo6,
     projectInfo7,
-    projectInfo8,
     projectInfo9,
     projectInfo10,
   ];

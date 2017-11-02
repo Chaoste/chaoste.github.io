@@ -1,38 +1,70 @@
 .preview {
-  margin: 0.5rem;
-  padding: 0.5rem;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #ddd;
-  flex-grow: 1;
-  flex-basis: 0;
+  background: linear-gradient(180deg, #eee 0%, #ddd 80%, #aaa 100%);
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .preview .title,
 .preview .description {
-  display: flex;
+  /*display: inline-flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
+  text-align: left;
   padding: 0 0.5rem 0.5rem;
 }
 
-.video {
+.preview .title {
+  font-size: 2rem;
+}
+
+.preview .description {
+  /*position: absolute;*/
+  z-index: 1;
+  bottom: 0;
+  width: calc(100% - 2rem);
+  /*background: rgba(255, 255, 255, 0.6);*/
+}
+
+.videoContainer {
   margin-top: 5px;
-  height: 200px;
   min-width: 200px;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 
-.video > iframe {
+.videoContainer > iframe {
   position: absolute;
+  height: 220px;
+}
+
+.thumbnailContainer {
+  overflow: hidden;
+  height: 270px;
 }
 
 .thumbnail {
-  min-width: 100%;
-  position: absolute;
+  /*position: absolute;*/
   transition: all 400ms ease-out;
+  margin-top: -45px;
 }
 
 .thumbnail.hidden {

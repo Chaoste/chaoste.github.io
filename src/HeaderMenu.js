@@ -7,8 +7,8 @@ import './HeaderMenu.css';
 class HeaderMenu extends Component {
   sections = [
     { title: 'Home', path: '/' },
-    { title: 'Projects', path: '/projects' },
-    { title: 'About', path: '/about' },
+    // { title: 'Projects', path: '/projects' },
+    // { title: 'About', path: '/about' },
   ];
 
   renderSections() {

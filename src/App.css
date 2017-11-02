@@ -20,7 +20,7 @@
 
 .switch-wrapper {
   position: relative;
-  padding: 1rem;
+  /*padding: 1rem 0;*/
 }
 
 .switch-wrapper > div {

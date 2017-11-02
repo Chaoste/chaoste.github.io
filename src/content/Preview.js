@@ -47,10 +47,10 @@ class Preview extends Component {
     if (!this.state.loaded) {
       this.player = YouTubePlayer(this.videoContainer, {
         height: '310',
-        width: '360',
+        width: '400',
         videoId: this.props.info.youtubeId,
         playerVars: {
-          autoplay: '1',
+          autoplay: '0',
           controls: '0',
           disablekb: '1',
           loop: '1',
@@ -61,38 +61,41 @@ class Preview extends Component {
           showinfo: '0',
         },
       });
-      this.player.on('ready', () =>
-        this.setState({ loaded: true, playing: true }),
-      );
-    } else {
-      this.player.playVideo();
-      this.setState({
-        playing: true,
+      this.player.on('ready', () => {
+        this.player.mute();
+        this.setState({ loaded: true, playing: false });
       });
+    } else {
+      // this.player.playVideo();
+      // this.setState({
+      //   playing: true,
+      // });
     }
   };
 
   onMouseLeave = event => {
     if (this.state.loaded) {
-      this.player.pauseVideo();
-      this.setState({
-        playing: false,
-      });
+      // this.player.pauseVideo();
+      // this.setState({
+      //   playing: false,
+      // });
     }
   };
 
   renderYoutube() {
     if (!this.props.info.youtubeId) return null;
     return (
-      <div
-        className="video"
-        onMouseEnter={this.onMouseEnter}
-        onMouseLeave={this.onMouseLeave}
-      >
-        <img
-          className={`thumbnail ${this.state.loaded ? 'hidden' : ''}`}
-          src={`https://img.youtube.com/vi/${this.props.info.youtubeId}/0.jpg`}
-        />
+      <div className="videoContainer">
+        <div className="thumbnailContainer">
+          <img
+            className={`thumbnail ${this.state.loaded ? 'hidden' : ''}`}
+            alt="Demo Thumbnail"
+            onMouseEnter={this.onMouseEnter}
+            onMouseLeave={this.onMouseLeave}
+            src={`https://img.youtube.com/vi/${this.props.info
+              .youtubeId}/0.jpg`}
+          />
+        </div>
         <div ref={n => (this.videoContainer = n)} />
       </div>
     );
@@ -101,9 +104,11 @@ class Preview extends Component {
   render() {
     return (
       <div className="preview">
-        <div className="title">{this.props.info.title}</div>
-        <div className="description">{this.props.info.description}</div>
         {this.renderYoutube()}
+        <div className="about">
+          <div className="title">{this.props.info.title}</div>
+          <div className="description">{this.props.info.description}</div>
+        </div>
       </div>
     );
   }
