@@ -13,7 +13,7 @@ header {
 }
 header a {
   display: inline-block;
-  padding: 0.4rem;
+  padding: 0 0.4rem;
   cursor: pointer;
   text-decoration: none;
   color: white;
@@ -31,12 +31,15 @@ header > .title {
   font-size: 0.9em;
   margin: 0;
   padding-left: 0.2rem;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
 }
 
 /* 384px */
 @media only screen and (min-width: 24em) {
   header a {
-    padding: 0.7rem;
+    padding: 0 0.7rem;
   }
 }
 /* 576px */

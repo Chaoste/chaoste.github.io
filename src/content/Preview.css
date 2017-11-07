@@ -1,5 +1,4 @@
 .preview {
-  height: 100vh;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -7,22 +6,47 @@
   justify-content: center;
   align-items: center;
   background: #ddd;
-  background: linear-gradient(180deg, #eee 0%, #ddd 80%, #aaa 100%);
+  background: linear-gradient(180deg, #fff 0%, #eee 80%, #aaa 100%);
+  flex-direction: column-reverse;
+}
+
+.preview:first-child {
+  margin-top: 2.5rem;
+}
+
+@media screen and (min-width: 52em) {
+  .preview {
+    flex-direction: row;
+    height: 100vh;
+  }
 }
 
 .about {
-  height: 100%;
-  width: 100%;
+  width: 90%;
+  height: 50%;
+  margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+@media screen and (min-width: 52em) {
+  .about {
+    width: 60%;
+    height: 100%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 72em) {
+  .about {
+    width: 100%;
+  }
+}
+
 .preview .title,
-.preview .description {
-  /*display: inline-flex;
-  justify-content: center;
-  align-items: center;*/
+.preview .description,
+.preview .moreDescription {
   text-align: left;
   padding: 0 0.5rem 0.5rem;
 }
@@ -32,47 +56,26 @@
 }
 
 .preview .description {
-  /*position: absolute;*/
   z-index: 1;
   bottom: 0;
   width: calc(100% - 2rem);
-  /*background: rgba(255, 255, 255, 0.6);*/
 }
 
-.videoContainer {
-  margin-top: 5px;
-  min-width: 200px;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+.preview .moreDescription {
+  margin: 2rem 2rem 4rem;
 }
 
-.videoContainer > iframe {
-  position: absolute;
-  height: 220px;
+.preview .moreDescription.desktop {
+  display: none;
+  margin: 0;
+  padding-top: 2rem;
 }
 
-.thumbnailContainer {
-  overflow: hidden;
-  height: 270px;
-}
-
-.thumbnail {
-  /*position: absolute;*/
-  transition: all 400ms ease-out;
-  margin-top: -45px;
-}
-
-.thumbnail.hidden {
-  opacity: 0.2;
-  filter: blur(5px);
-}
-
-/* Hide Play button + controls on iOS */
-video::-webkit-media-controls {
-  /*display: none !important;*/
+@media screen and (min-width: 52em) {
+  .preview .moreDescription.mobile {
+    display: none;
+  }
+  .preview .moreDescription.desktop {
+    display: block;
+  }
 }
