@@ -1,3 +1,13 @@
+TODO:
+- Show programming language including icons
+- Add paper download links
+- Github
+- Add pictures
+- Add application download links (description?)
+- CV
+- Developed websites
+- Projects categories (Hackathon, Bachelor/ Master, Others)
+
 
 
 * MSA: Minigolf

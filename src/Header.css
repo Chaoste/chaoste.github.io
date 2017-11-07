@@ -1,5 +1,4 @@
 header {
-  background-color: #222;
   color: white;
   text-align: left;
   position: fixed;
@@ -7,8 +6,9 @@ header {
   left: 0;
   right: 0;
   z-index: 10;
-  background: rgba(140, 140, 140, 0.5);
-  background: linear-gradient(135deg, #ccc 0%, #999 50%, #ccc 100%);
+  /*background: rgba(140, 140, 140, 0.5);
+  background: linear-gradient(135deg, #ccc 0%, #999 50%, #ccc 100%);*/
+  background: #17234e;
   height: 2.5rem;
 }
 header a {

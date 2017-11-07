@@ -11,7 +11,21 @@ export const info = {
 
 export class Content extends Component {
   render() {
-    return <div>EditorOfDrawingContent</div>;
+    return (
+      <div>
+        <p>
+          This editor written in JAVA includes several drawing tools, selection
+          modes, filters and works with vector graphics so that the user is able
+          to edit his drawings later. As shown in the demo it also offers a
+          Newton fractal generator.
+        </p>
+        <p>
+          For my Abitur (graduation from german high school) I wrote a 20-sided
+          paper describing the software structure, interesting insights and the
+          historical background of drawing programs.
+        </p>
+      </div>
+    );
   }
 }
 
