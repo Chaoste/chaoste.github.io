@@ -31,7 +31,7 @@ Bachelor:
   * MemeTracker
   * Authorsupport
 
-[ * 16.03.2017 Bosch Hackathon - Overheat ]
+[ * 16.03.2017 Bosch Hackathon - OptiHeat ]
 
 Master:
   - SS 17:

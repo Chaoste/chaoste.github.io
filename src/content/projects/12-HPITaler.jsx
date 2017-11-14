@@ -11,7 +11,14 @@ export const info = {
 
 export class Content extends Component {
   render() {
-    return <div>HPITalerContent</div>;
+    return (
+      <div>
+        <p>
+          quick park bla bla bla sdf sdf dsf dsf dsf sdf sdf sdfsdf asdf dsf dsf
+          dsf afsdf asdf asdf dsf
+        </p>
+      </div>
+    );
   }
 }
 

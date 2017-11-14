@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 export const info = {
-  title: 'Overheat',
+  title: 'OptiHeat',
   language: ['Python', 'Javascript'],
   description: 'Saving energy and making office worker feel comfortable',
   year: 2017,
@@ -10,7 +10,14 @@ export const info = {
 
 export class Content extends Component {
   render() {
-    return <div>OverheatContent</div>;
+    return (
+      <div>
+        <p>
+          quick park bla bla bla sdf sdf dsf dsf dsf sdf sdf sdfsdf asdf dsf dsf
+          dsf afsdf asdf asdf dsf
+        </p>
+      </div>
+    );
   }
 }
 

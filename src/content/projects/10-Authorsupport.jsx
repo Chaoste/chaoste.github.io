@@ -11,7 +11,18 @@ export const info = {
 
 export class Content extends Component {
   render() {
-    return <div>AuthorsupportContent</div>;
+    return (
+      <div>
+        <p>
+          This webapp is meant to be used by blog authors. While writing content
+          a sidebar shows relevant posts and tags in realtime. Additionally the
+          user is able to add a filter to the search based on his target group
+          by defining age groups and other aspects. The application is also a
+          part of the Blog Intelligence project which crawls blogs and extracts
+          useful knowledge from their blog posts.
+        </p>
+      </div>
+    );
   }
 }
 

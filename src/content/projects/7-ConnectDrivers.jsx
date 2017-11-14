@@ -10,7 +10,19 @@ export const info = {
 
 export class Content extends Component {
   render() {
-    return <div>ConnectDriversContent</div>;
+    return (
+      <div>
+        <p>
+          For the hackathon (Mapathon) at HERE in Berlin we built a webapp
+          sharing routes between the drivers of multiple cars. One driver can
+          start a session which other drivers can join. Every session
+          participant is allowed to change the route by adding and removing
+          intermediate stops. Therefore we show all restaurants, petrol stations
+          and other fitting locations. The user can click on a location tag to
+          add it to the route.
+        </p>
+      </div>
+    );
   }
 }
 
