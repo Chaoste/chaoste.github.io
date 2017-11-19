@@ -13,8 +13,16 @@ export class Content extends Component {
     return (
       <div>
         <p>
-          quick park bla bla bla sdf sdf dsf dsf dsf sdf sdf sdfsdf asdf dsf dsf
-          dsf afsdf asdf asdf dsf
+          The Brain Tumor Segmentation Challenge (BraTS challenge) encourages
+          researchers to develop algorithms to support doctors in segmenting
+          brain tumors by providing a large dataset of brain scans of patients
+          who suﬀered of gliomas. Within this seminar we worked on several Deep
+          Learning techniques adressing this problem. Besides of simple tasks
+          like classifying the presence of a glioma and its type we also worked
+          on segmenting the tumor area and predicting the survival rate of
+          patients. For the last challenge we took several input data at once
+          into account: brain scans, the segmented tumor area and the patients
+          age.
         </p>
       </div>
     );

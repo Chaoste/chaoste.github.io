@@ -13,8 +13,22 @@ export class Content extends Component {
     return (
       <div>
         <p>
-          quick park bla bla bla sdf sdf dsf dsf dsf sdf sdf sdfsdf asdf dsf dsf
-          dsf afsdf asdf asdf dsf
+          At the BOSCH hackathon 2017 in Berlin we used Reinforcement Learning
+          to tackle the problem of office workers to feel comfortable regarding
+          the temperature and air quality in a large office.
+        </p>
+        <p>
+          Large offices include the living together of many workers. To let them
+          feel comfortable at work, heating systems and humidifiers are
+          available. These systems are often automatically programmed so they
+          provide known acceptable conditions. But workers have their own
+          specific preferences on temperature and humidity and therefore they
+          might want to change it manually. Because this accompanies with
+          disagreements among the workers, the room temperature and humidity are
+          often changed and result in arising energy costs. We proposed a
+          system, which considers the energy costs and the feedback by the
+          workers. After some time we learn the users preferences, so they don't
+          have to give feedback again and again.
         </p>
       </div>
     );
