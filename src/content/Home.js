@@ -14,6 +14,10 @@ import * as project7 from './projects/7-ConnectDrivers.jsx';
 import * as project8 from './projects/8-Quickpark.jsx';
 import * as project9 from './projects/9-MemeTracker.jsx';
 import * as project10 from './projects/10-Authorsupport.jsx';
+import * as project11 from './projects/11-OptiHeat.jsx';
+import * as project12 from './projects/12-HPITaler.jsx';
+import * as project13 from './projects/13-TumorSegmentation.jsx';
+import * as project14 from './projects/14-MASQuickpark.jsx';
 
 class Home extends Component {
   projectInfos = [
@@ -27,6 +31,10 @@ class Home extends Component {
     project7,
     project9,
     project10,
+    project11,
+    project12,
+    project13,
+    project14,
   ];
 
   renderContent() {
