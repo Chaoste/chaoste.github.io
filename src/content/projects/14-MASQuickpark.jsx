@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
+import solutionImage from './images/14-MASQuickpark-Solution.jpg';
+
 export const info = {
   title: 'Quickpark in a MAS',
   language: 'Python',
   description:
     'Routing Drivers for On-Street Parking Search in a Multi-agent System',
   year: 2016,
+  image: solutionImage,
 };
 
 export class Content extends Component {
