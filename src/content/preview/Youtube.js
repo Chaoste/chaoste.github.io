@@ -44,12 +44,8 @@ class Youtube extends Component {
 
   render() {
     return (
-      <div className="videoContainer">
-        <a
-          className={`thumbnailContainer ${this.state.loaded ? 'hidden' : ''}`}
-          tabIndex={0}
-          onClick={this.onClick}
-        >
+      <div className={`videoContainer ${this.state.loaded ? 'active' : ''}`}>
+        <a className="thumbnailContainer" tabIndex={0} onClick={this.onClick}>
           <img
             className="thumbnail"
             alt="Demo Thumbnail"
