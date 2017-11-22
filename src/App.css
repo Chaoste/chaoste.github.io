@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: sans-serif;
+  height: 100vh;
 }
 
 .App-intro {
@@ -20,7 +21,8 @@
 
 .switch-wrapper {
   position: relative;
-  /*padding: 1rem 0;*/
+  top: 2.5rem;
+  height: calc(100% - 2.5rem); /* Subtract header height */
 }
 
 .switch-wrapper > div {
@@ -35,4 +37,5 @@
 .switch-wrapper > div:first-child {
   position: relative;
   padding: 0;
+  height: 100%;
 }

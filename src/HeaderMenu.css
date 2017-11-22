@@ -7,11 +7,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: right;
+  padding: 0 0.5rem;
 }
 
 /* 384px */
 @media only screen and (min-width: 24em) {
   .header-menu {
-    padding: 0 0.7rem;
+    padding: 0 1rem;
   }
 }

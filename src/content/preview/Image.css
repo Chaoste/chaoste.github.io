@@ -1,23 +1,59 @@
 .imageContainer {
-  min-width: 200px;
-  max-width: calc(100vw - 2rem);
+  height: 200px;
   overflow: hidden;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  outline: none;
 }
 
-.thumbnailContainer {
+@media screen and (min-width: 25em) {
+  .imageContainer {
+    height: 220px;
+  }
+}
+
+@media screen and (min-width: 32em) {
+  .imageContainer {
+    height: 270px;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .imageContainer {
+    height: 300px;
+  }
+}
+
+.imageContainer a {
   display: block;
   position: relative;
   overflow: hidden;
-  height: 175px;
-  width: 290px;
+  height: 100%;
   cursor: pointer;
   outline: none;
 }
 
-.hidden {
+.imageContainer a img {
+  height: 100%;
+}
+
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(100, 100, 100, 0.4);
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.modalWrapper.hidden {
   display: none;
+}
+
+.modalDialog {
+  box-shadow: 2px 2px 10px 3px rgba(50, 50, 50, 0.5);
 }
