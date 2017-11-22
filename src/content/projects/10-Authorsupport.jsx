@@ -16,10 +16,10 @@ export class Content extends Component {
         <p>
           This webapp is meant to be used by blog authors. While writing content
           a sidebar shows relevant posts and tags in realtime. Additionally the
-          user is able to add a filter to the search based on his target group
-          by defining age groups and other aspects. The application is also a
-          part of the Blog Intelligence project which crawls blogs and extracts
-          useful knowledge from their blog posts.
+          author is able to add a filter to the search based on his target
+          group. Therefore he can define the age, gender and other aspects. The
+          application is also a part of the Blog Intelligence project which
+          crawls blogs and extracts useful knowledge from their blog posts.
         </p>
       </div>
     );

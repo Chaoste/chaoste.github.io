@@ -1,11 +1,3 @@
-.centeringContainer {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .videoContainer {
   min-width: 200px;
   max-width: calc(100vw - 2rem);

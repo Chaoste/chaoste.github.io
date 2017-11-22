@@ -30,7 +30,6 @@ export class Content extends Component {
           the window menu which is able to translate user inputs into the used
           file format for levels.
         </p>
-        <p>If you're interested in downloading the game...</p>
       </div>
     );
   }

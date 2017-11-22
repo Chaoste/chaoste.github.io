@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './Projects.css';
-import Preview from './Preview.js';
+import Preview from './preview/Preview.js';
 
 // Projects
 import projectInfo1 from './projects/1-Minigolf.json';

@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
+import webappPreview from './images/11-OptiHeat-Webapp.jpg';
+
 export const info = {
   title: 'OptiHeat',
   language: ['Python', 'Javascript'],
   description: 'Saving energy and making office worker feel comfortable',
   year: 2017,
-  images: [],
+  image: webappPreview,
 };
 
 export class Content extends Component {

@@ -18,8 +18,8 @@ export class Content extends Component {
           start a session which other drivers can join. Every session
           participant is allowed to change the route by adding and removing
           intermediate stops. Therefore we show all restaurants, petrol stations
-          and other fitting locations. The user can click on a location tag to
-          add it to the route.
+          and other fitting locations along the route. The user can click on a
+          location tag to add it to the route.
         </p>
       </div>
     );

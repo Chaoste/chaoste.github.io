@@ -1,0 +1,23 @@
+.imageContainer {
+  min-width: 200px;
+  max-width: calc(100vw - 2rem);
+  overflow: hidden;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.thumbnailContainer {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 175px;
+  width: 290px;
+  cursor: pointer;
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}

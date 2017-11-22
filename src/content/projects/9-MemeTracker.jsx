@@ -17,7 +17,7 @@ export class Content extends Component {
           blogs and extracts useful knowledge from their blog posts. The
           provided data are used to show relations between posts from different
           blogs. By looking for a phrase or quote you can see which blog posted
-          about this topic and on which day he post was published.
+          about this topic and on which day the post was published.
         </p>
       </div>
     );
