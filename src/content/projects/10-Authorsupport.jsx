@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { CONTEXT_WORK } from './Constants.js';
+
 export const info = {
   title: 'AuthorSupport',
   language: 'Javascript',
@@ -7,6 +9,7 @@ export const info = {
     'Webapp for showing blog authors related blog posts while writing articles',
   year: 2016,
   youtubeId: 'uEYOIV4C5Fw',
+  context: CONTEXT_WORK,
 };
 
 export class Content extends Component {

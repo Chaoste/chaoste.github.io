@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
+import { CONTEXT_MASTER } from './Constants.js';
+
 export const info = {
   title: 'Brain Tumor Segmentation',
   language: 'Python',
   description: '',
   year: 2017,
   youtubeId: 'K3Ziw-hd1g0',
+  context: CONTEXT_MASTER,
 };
 
 export class Content extends Component {

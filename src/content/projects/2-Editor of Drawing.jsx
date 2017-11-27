@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { CONTEXT_HIGHSCHOOL } from './Constants.js';
+
 export const info = {
   title: 'Editor of Drawing',
   language: 'Java',
@@ -7,6 +9,7 @@ export const info = {
   year: 2013,
   youtubeId: 'ht1iFqjT4S0',
   download: 'drive.google.com/open?id=0B6JQcxQ0IGR4NzduM2JNMlNIYzA',
+  context: CONTEXT_HIGHSCHOOL,
 };
 
 export class Content extends Component {

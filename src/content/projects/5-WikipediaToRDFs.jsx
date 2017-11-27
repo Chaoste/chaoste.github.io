@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { CONTEXT_BACHELOR } from './Constants.js';
+
 export const info = {
   title: 'Wikipedia List to RDFs',
   language: 'Python',
@@ -7,6 +9,7 @@ export const info = {
     'Extending DBpedia by mining structured knowledge from Wikipedia’s tables',
   year: 2015,
   youtubeId: 'Np3lITsFpYw',
+  context: CONTEXT_BACHELOR,
 };
 
 export class Content extends Component {

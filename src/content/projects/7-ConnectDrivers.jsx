@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
+import { CONTEXT_HACKATHON } from './Constants.js';
+
 export const info = {
   title: 'Connect drivers',
   language: 'Python',
   description: 'HERE Mapathon - Planing routes for multiple cars',
   year: 2015,
   youtubeId: '3i0HaA5TU2M',
+  context: CONTEXT_HACKATHON,
 };
 
 export class Content extends Component {

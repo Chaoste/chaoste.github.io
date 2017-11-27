@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
+import { CONTEXT_BACHELOR } from './Constants.js';
+
 export const info = {
   title: 'Visualizing cab data from NYC',
   language: 'Javascript',
   description: 'Collect and visualize 700 mio. data entries in SAP HANA',
   year: 2015,
   youtubeId: 'vEwwDdPnHrk',
+  context: CONTEXT_BACHELOR,
 };
 
 export class Content extends Component {

@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
+import { CONTEXT_WORK } from './Constants.js';
+
 export const info = {
   title: 'MemeTracker',
   language: 'Javascript',
   description: 'Webapp for finding blog posts related to a phrase',
   year: 2016,
   youtubeId: 'aGDQ-pB85Fw',
+  context: CONTEXT_WORK,
 };
 
 export class Content extends Component {

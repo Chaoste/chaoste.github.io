@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
+import { CONTEXT_BACHELOR } from './Constants.js';
+
 export const info = {
   title: 'SwaGolf',
   language: 'Smalltalk',
   description: 'Beautiful customizable miniature golf.',
   year: 2015,
   youtubeId: 'abxcPewUGDA',
+  context: CONTEXT_BACHELOR,
 };
 
 export class Content extends Component {

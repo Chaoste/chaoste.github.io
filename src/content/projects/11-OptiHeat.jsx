@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { CONTEXT_HACKATHON } from './Constants.js';
+
 import webappPreview from './images/11-OptiHeat-Webapp.jpg';
 
 export const info = {
@@ -8,6 +10,7 @@ export const info = {
   description: 'Saving energy and making office worker feel comfortable',
   year: 2017,
   image: webappPreview,
+  context: CONTEXT_HACKATHON,
 };
 
 export class Content extends Component {

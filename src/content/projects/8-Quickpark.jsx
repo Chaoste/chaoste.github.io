@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
+import { CONTEXT_BACHELOR } from './Constants.js';
+
 export const info = {
   title: 'Quickpark',
   language: 'Python',
   description: 'Probabilistic Routing for On-Street Parking Search',
   year: 2016,
   youtubeId: 'Wn-HTkPACvU',
+  context: CONTEXT_BACHELOR,
 };
 
 export class Content extends Component {

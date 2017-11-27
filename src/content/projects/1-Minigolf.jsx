@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { CONTEXT_HIGHSCHOOL } from './Constants.js';
+
 export const info = {
   title: 'Minigolf',
   language: 'Delphi Pascal',
@@ -8,6 +10,7 @@ export const info = {
   year: 2011,
   youtubeId: 'YdBqT4kWFLs',
   download: 'drive.google.com/file/d/0B6JQcxQ0IGR4c1drYWh5ajlsVjA',
+  context: CONTEXT_HIGHSCHOOL,
 };
 
 export class Content extends Component {

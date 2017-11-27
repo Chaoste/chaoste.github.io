@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { CONTEXT_MASTER } from './Constants.js';
+
 export const info = {
   title: 'HPI Taler',
   language: ['Python', 'Kivy'],
@@ -7,6 +9,7 @@ export const info = {
     'A new cryptocurrency based on Swirlds Hashgraph Consensus Algorithm',
   year: 2017,
   youtubeId: 'Lu0FDO86XOw',
+  context: CONTEXT_MASTER,
 };
 
 export class Content extends Component {

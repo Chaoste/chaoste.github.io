@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { CONTEXT_BACHELOR } from './Constants.js';
+
 import solutionImage from './images/14-MASQuickpark-Solution.jpg';
 
 export const info = {
@@ -9,6 +11,7 @@ export const info = {
     'Routing Drivers for On-Street Parking Search in a Multi-agent System',
   year: 2016,
   image: solutionImage,
+  context: CONTEXT_BACHELOR,
 };
 
 export class Content extends Component {
