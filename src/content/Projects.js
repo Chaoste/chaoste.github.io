@@ -4,39 +4,37 @@ import './Projects.css';
 import Preview from './preview/Preview.js';
 
 // Projects
-import projectInfo1 from './projects/1-Minigolf.json';
-import projectContent1 from './projects/1-Minigolf.jsx';
-import projectInfo2 from './projects/2-Editor of Drawing.json';
-import projectContent2 from './projects/2-Editor of Drawing.jsx';
-import projectInfo3 from './projects/3-JamFloor.json';
-import projectContent3 from './projects/3-JamFloor.jsx';
-import projectInfo4 from './projects/4-SwaGolf.json';
-import projectContent4 from './projects/4-SwaGolf.jsx';
-import projectInfo5 from './projects/5-WikipediaToRDFs.json';
-import projectContent5 from './projects/5-WikipediaToRDFs.jsx';
-import projectInfo6 from './projects/6-NYCCabs.json';
-import projectContent6 from './projects/6-NYCCabs.jsx';
-import projectInfo7 from './projects/7-ConnectDrivers.json';
-import projectContent7 from './projects/7-ConnectDrivers.jsx';
-import projectInfo8 from './projects/8-Quickpark.json';
-import projectContent8 from './projects/8-Quickpark.jsx';
-import projectInfo9 from './projects/9-MemeTracker.json';
-import projectContent9 from './projects/9-MemeTracker.jsx';
-import projectInfo10 from './projects/10-Authorsupport.json';
-import projectContent10 from './projects/10-Authorsupport.jsx';
+import * as project1 from './projects/1-Minigolf.jsx';
+import * as project2 from './projects/2-Editor of Drawing.jsx';
+import * as project3 from './projects/3-JamFloor.jsx';
+import * as project4 from './projects/4-SwaGolf.jsx';
+import * as project5 from './projects/5-WikipediaToRDFs.jsx';
+import * as project6 from './projects/6-NYCCabs.jsx';
+import * as project7 from './projects/7-ConnectDrivers.jsx';
+import * as project8 from './projects/8-Quickpark.jsx';
+import * as project9 from './projects/9-MemeTracker.jsx';
+import * as project10 from './projects/10-Authorsupport.jsx';
+import * as project11 from './projects/11-OptiHeat.jsx';
+import * as project12 from './projects/12-HPITaler.jsx';
+import * as project13 from './projects/13-TumorSegmentation.jsx';
+import * as project14 from './projects/14-MASQuickpark.jsx';
 
 class Projects extends Component {
   projectInfos = [
-    projectInfo1,
-    projectInfo2,
-    projectInfo3,
-    projectInfo4,
-    projectInfo5,
-    projectInfo6,
-    projectInfo7,
-    projectInfo8,
-    projectInfo9,
-    projectInfo10,
+    project1,
+    project2,
+    project3,
+    project4,
+    project5,
+    project6,
+    project7,
+    project8,
+    project9,
+    project10,
+    project11,
+    project12,
+    project13,
+    project14,
   ];
 
   renderContent() {
