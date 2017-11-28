@@ -3,7 +3,8 @@
   overflow-y: auto;
 }
 
-.container {
+.intro-container,
+.content-container {
   margin: 0 auto;
   /*overflow-y: hidden;*/
 }

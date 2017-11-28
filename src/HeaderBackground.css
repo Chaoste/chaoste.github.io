@@ -1,0 +1,27 @@
+.background-container {
+  background-image: url('./res/header.svg');
+  overflow: hidden;
+  height: 400px;
+  /*filter: grayscale(0.8);*/
+}
+
+.person {
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  margin: 1rem auto;
+  max-width: 90%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.person img {
+}
+
+.intro {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.6);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

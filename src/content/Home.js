@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import './Home.css';
 import Preview from './preview/Preview.js';
+import HeaderBackground from '../HeaderBackground.js';
+import Person from './Person.js';
 
 // Projects
 import * as project8 from './projects/8-Quickpark.jsx';
@@ -25,7 +27,10 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        <div className="container">{this.renderContent()}</div>
+        <HeaderBackground>
+          <Person />
+        </HeaderBackground>
+        <div className="content-container">{this.renderContent()}</div>
       </div>
     );
   }

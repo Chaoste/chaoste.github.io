@@ -8,6 +8,7 @@ export const info = {
   description: '',
   year: 2017,
   youtubeId: 'K3Ziw-hd1g0',
+  github: 'HPI-DeepLearning/SegMed',
   context: CONTEXT_MASTER,
 };
 

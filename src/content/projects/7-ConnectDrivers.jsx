@@ -8,6 +8,7 @@ export const info = {
   description: 'HERE Mapathon - Planing routes for multiple cars',
   year: 2015,
   youtubeId: '3i0HaA5TU2M',
+  github: 'lawben/connect-here',
   context: CONTEXT_HACKATHON,
 };
 

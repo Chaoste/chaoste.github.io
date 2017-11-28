@@ -8,6 +8,7 @@ export const info = {
   description: 'Probabilistic Routing for On-Street Parking Search',
   year: 2016,
   youtubeId: 'Wn-HTkPACvU',
+  github: 'quickpark/quickpark',
   context: CONTEXT_BACHELOR,
 };
 

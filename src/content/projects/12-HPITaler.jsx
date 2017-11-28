@@ -9,6 +9,7 @@ export const info = {
     'A new cryptocurrency based on Swirlds Hashgraph Consensus Algorithm',
   year: 2017,
   youtubeId: 'Lu0FDO86XOw',
+  github: 'ceddie/bptc_wallet',
   context: CONTEXT_MASTER,
 };
 

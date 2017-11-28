@@ -9,6 +9,7 @@ export const info = {
     'Extending DBpedia by mining structured knowledge from Wikipedia’s tables',
   year: 2015,
   youtubeId: 'Np3lITsFpYw',
+  github: 'AlexImmer/RDFs-from-wikitables',
   context: CONTEXT_BACHELOR,
 };
 

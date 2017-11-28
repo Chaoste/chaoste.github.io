@@ -11,6 +11,7 @@ export const info = {
     'Routing Drivers for On-Street Parking Search in a Multi-agent System',
   year: 2016,
   image: solutionImage,
+  github: 'Chaoste/quickpark/tree/multi-agent',
   context: CONTEXT_BACHELOR,
 };
 
