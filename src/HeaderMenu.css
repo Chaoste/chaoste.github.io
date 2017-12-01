@@ -16,3 +16,10 @@
     padding: 0 1rem;
   }
 }
+
+/* 576px */
+@media only screen and (min-width: 36em) {
+  .header-menu {
+    right: 3rem;
+  }
+}

@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 
-// import './Person.css';
+import './Person.css';
 import personImage from '../res/Bachelorpodium2016-Quickpark.png';
 
 class Person extends Component {
   render() {
     return (
       <div className="person">
-        <img src={personImage} alt="Bachelorpodium 2016" />
+        <div className="image-container">
+          <img src={personImage} alt="Bachelorpodium 2016" />
+        </div>
         <div className="intro">
           <p>
             As a student from the HPI in Potsdam I've learned to work in teams

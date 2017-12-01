@@ -1,0 +1,70 @@
+.person {
+  display: flex;
+  margin: 0 auto;
+  overflow: hidden;
+  flex-direction: column-reverse;
+}
+
+.person .intro {
+  padding: 0 1rem;
+  background: rgba(255, 255, 255, 0.6);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.person .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding-top: 2rem;
+}
+
+@media only screen and (min-width: 36em) {
+  .person {
+    max-width: 100%;
+    border-radius: 0;
+    margin-top: 0;
+    flex-direction: row;
+  }
+
+  .person .intro {
+    padding: 0 1rem;
+  }
+
+  .person .image-container {
+    display: flex;
+    align-items: baseline;
+    overflow-x: hidden;
+    min-width: 140px;
+    width: 200px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.3);
+    padding-top: 0;
+  }
+}
+
+/* TODO: remove padding-top */
+
+@media screen and (min-width: 52em) {
+  .person .intro {
+    flex-shrink: 10;
+  }
+
+  .person .image-container {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .person {
+    max-width: 90%;
+    border-radius: 10px;
+    margin: 1rem auto;
+  }
+
+  .person .intro {
+    padding: 0.5rem 2rem;
+  }
+}
