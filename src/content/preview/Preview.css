@@ -45,7 +45,7 @@
 .preview .description,
 .preview .moreDescription {
   text-align: left;
-  padding: 0 0.5rem 0.5rem;
+  padding: 0 1rem 0.5rem;
 }
 
 .preview .title {
@@ -60,13 +60,17 @@
 
 .preview .moreDescription {
   margin: 0;
-  padding: 1rem 1rem 5rem;
+  padding: 0 1rem 5rem;
 }
 
 .preview .moreDescription.desktop {
   display: none;
   margin: 0;
-  padding-bottom: 1rem;
+  padding-bottom: 0;
+}
+
+.preview .moreDescription > * {
+  margin: 1rem auto;
 }
 
 @media screen and (min-width: 52em) {

@@ -15,12 +15,14 @@ export class Content extends Component {
   render() {
     return (
       <div>
-        For the lecture "Software architectures" we developed another miniature
-        golf game as a team of four students. It contains a high functional
-        level editor, scoring tables and efficient collision detections. The
-        biggest advantage is the support for compositions of the level objects
-        so it's easy to create new levels based on previous created groups of
-        elements.
+        <p>
+          For the lecture "Software architectures" we developed another
+          miniature golf game as a team of four students. It contains a high
+          functional level editor, scoring tables and efficient collision
+          detections. The biggest advantage is the support for compositions of
+          the level objects so it's easy to create new levels based on previous
+          created groups of elements.
+        </p>
       </div>
     );
   }
