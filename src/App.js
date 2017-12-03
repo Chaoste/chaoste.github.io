@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
 
-import Header from './Header.js';
+import Header from './header/Header.js';
+import Footer from './footer/Footer.js';
 import Home from './content/Home.js';
 import About from './content/About.js';
 // import Projects from './content/Projects.js';
@@ -25,6 +26,7 @@ class App extends Component {
             <Route path="/about" component={About} />
             {/* <Route path="/projects" component={Projects} /> */}
           </AnimatedSwitch>
+          <Footer />
         </div>
       </Router>
     );

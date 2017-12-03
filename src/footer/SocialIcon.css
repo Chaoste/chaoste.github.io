@@ -1,0 +1,9 @@
+.social-icon img {
+  filter: grayscale(1) brightness(1.5) opacity(0.5);
+  transition: filter 200ms;
+  height: 2rem;
+}
+
+.social-icon:hover img {
+  filter: none;
+}

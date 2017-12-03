@@ -5,9 +5,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ddd;
-  background: linear-gradient(180deg, #fff 0%, #eee 80%, #aaa 100%);
+  /*background: #ddd;*/
+  /*background: linear-gradient(180deg, #fff 0%, #eee 80%, #aaa 100%);*/
+  background: white;
   flex-direction: column-reverse;
+}
+
+.preview:nth-child(2n) {
+  background: rgb(181, 181, 220);
 }
 
 @media screen and (min-width: 52em) {

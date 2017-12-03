@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   font-family: sans-serif;
-  height: 100vh;
 }
 
 .App-intro {
@@ -21,7 +20,7 @@
 
 .switch-wrapper {
   position: relative;
-  top: 2.5rem;
+  margin-top: 2.5rem;
   height: calc(100% - 2.5rem); /* Subtract header height */
 }
 

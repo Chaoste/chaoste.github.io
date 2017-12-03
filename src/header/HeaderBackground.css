@@ -1,5 +1,5 @@
 .background-container {
-  background-image: url('./res/header.svg');
+  background-image: url('../res/header.svg');
   overflow: hidden;
   height: 100%;
 }

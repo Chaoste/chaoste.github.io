@@ -7,7 +7,7 @@ class Linksbar extends Component {
   renderButton(url, image) {
     return (
       <a className="link" href={url} target="_blank" rel="noopener">
-        <img alt="Project Preview" src={image} />
+        <img alt="Github" src={image} />
       </a>
     );
   }

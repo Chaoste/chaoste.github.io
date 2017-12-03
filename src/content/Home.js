@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './Home.css';
 import Preview from './preview/Preview.js';
-import HeaderBackground from '../HeaderBackground.js';
+import HeaderBackground from '../header/HeaderBackground.js';
 import Person from './Person.js';
 
 // Projects
