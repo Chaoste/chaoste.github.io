@@ -1,5 +1,5 @@
-export const CONTEXT_HIGHSCHOOL = 'ContextHighschool';
-export const CONTEXT_BACHELOR = 'ContextBachelor';
-export const CONTEXT_MASTER = 'ContextMaster';
-export const CONTEXT_HACKATHON = 'ContextHackathon';
-export const CONTEXT_WORK = 'ContextWork';
+export const CONTEXT_HIGHSCHOOL = 'Highschool';
+export const CONTEXT_BACHELOR = 'Bachelor';
+export const CONTEXT_MASTER = 'Master';
+export const CONTEXT_HACKATHON = 'Hackathon';
+export const CONTEXT_WORK = 'Work';

@@ -1,3 +1,58 @@
-.note {
-  font-style: italic;
+.projects .container {
+  padding: 1rem 0;
+}
+
+.group {
+  width: 100%;
+  height: 300px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 200ms;
+  margin: 0;
+  cursor: pointer;
+  font-family: Calibri Light;
+  font-size: 1.5em;
+}
+
+.group:nth-child(2n) {
+  background: rgb(181, 181, 220);
+  color: white;
+}
+
+.group:hover {
+  background: rgb(102, 102, 134);
+}
+
+@media only screen and (min-width: 36em) {
+  .group {
+    width: calc(50% - 3rem);
+    border: 2px solid rgb(102, 102, 134);
+    margin: 1rem;
+  }
+
+  .group:nth-child(2n) {
+    background: white;
+    color: black;
+  }
+
+  .group:hover {
+    background: rgba(181, 181, 220, 0.5);
+  }
+}
+
+@media only screen and (min-width: 46em) {
+  .projects .container {
+    padding: 5rem 1rem;
+  }
+
+  .group {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 56em) {
+  .projects .container {
+    padding: 5rem 5rem;
+  }
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import './Projects.css';
 import Preview from './preview/Preview.js';
+import Group from './Group.js';
 
 // Projects
 import * as project1 from './projects/1-Minigolf.jsx';
@@ -19,8 +20,10 @@ import * as project12 from './projects/12-HPITaler.jsx';
 import * as project13 from './projects/13-TumorSegmentation.jsx';
 import * as project14 from './projects/14-MASQuickpark.jsx';
 
+import * as CONTEXT_GROUPS from './projects/Constants.js';
+
 class Projects extends Component {
-  projectInfos = [
+  projects = [
     project1,
     project2,
     project3,
@@ -37,14 +40,28 @@ class Projects extends Component {
     project14,
   ];
 
+  getCategories() {
+    const categories = Object.keys(CONTEXT_GROUPS).map(
+      key => CONTEXT_GROUPS[key],
+    );
+    return categories.map(cat => {
+      return {
+        title: cat,
+        projects: this.projects.filter(project => project.info.context === cat),
+      };
+    });
+  }
+
   renderContent() {
-    return this.projectInfos.map((info, i) => <Preview key={i} info={info} />);
+    return this.projects.map((info, i) => <Preview key={i} info={info} />);
   }
 
   render() {
     return (
       <div className="projects">
-        <div className="container">{this.renderContent()}</div>
+        <div className="container">
+          {this.getCategories().map((group, i) => <Group key={i} {...group} />)}
+        </div>
       </div>
     );
   }
