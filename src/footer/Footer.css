@@ -4,7 +4,16 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
+
+/* 576px */
+@media only screen and (min-width: 36em) {
+  footer {
+    flex-direction: row;
+  }
+}
+
 footer a {
   display: inline-flex;
   align-items: center;
