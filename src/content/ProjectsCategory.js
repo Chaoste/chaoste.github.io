@@ -3,9 +3,11 @@ import React, { Component } from 'react';
 import './ProjectsCategory.css';
 import Preview from './preview/Preview.js';
 
+import ALL_PROJECTS from './projects/';
+
 class ProjectsCategory extends Component {
   renderContent() {
-    return null;
+    return 'UNDER CONSTRUCTION !!';
     return this.props.projects.map((project, i) => (
       <Preview key={i} info={project.info}>
         <project.Content />
@@ -16,7 +18,7 @@ class ProjectsCategory extends Component {
   render() {
     console.log(this.props);
     return (
-      <div className="home">
+      <div className="projects-category">
         <div className="content-container">{this.renderContent()}</div>
       </div>
     );

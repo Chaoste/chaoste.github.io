@@ -7,7 +7,7 @@ export const info = {
   language: 'C++',
   description: 'Collaborative Music Floor',
   year: 2015,
-  youtubeId: 'm1ROw1lBEZc',
+  youtubeId: 'D9il9HK4ei0',
   context: CONTEXT_BACHELOR,
 };
 

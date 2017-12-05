@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class Group extends Component {
   renderMedia(project, i) {
@@ -24,17 +26,15 @@ class Group extends Component {
 
   render() {
     return (
-      <a
+      <NavLink
         className="group"
-        onClick={() => {
-          console.info(this.props.title, this.props.projects);
-        }}
+        to={`/projects/${this.props.title.toLowerCase()}`}
       >
         {this.props.projects.map(this.renderMedia)}
         <span className="title">{this.props.title}</span>
-      </a>
+      </NavLink>
     );
   }
 }
 
-export default Group;
+export default withRouter(Group);
