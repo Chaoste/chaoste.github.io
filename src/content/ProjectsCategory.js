@@ -8,6 +8,7 @@ import ALL_PROJECTS from './projects/';
 class ProjectsCategory extends Component {
   renderContent() {
     return 'UNDER CONSTRUCTION !!';
+    // TODO:
     return this.props.projects.map((project, i) => (
       <Preview key={i} info={project.info}>
         <project.Content />

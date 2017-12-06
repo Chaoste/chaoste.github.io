@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import './Projects.css';
-import Preview from './preview/Preview.js';
 import Group from './Group.js';
 
 import * as CONTEXT_GROUPS from './projects/Constants.js';
