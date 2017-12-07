@@ -1,7 +1,10 @@
 git fetch --all
+rm -rf icons static
+
 yarn build
 cd build
-mv * ..
+mv .\static\ ../static
+mv -r * ..
 cd ..
 rm build
 git add .
