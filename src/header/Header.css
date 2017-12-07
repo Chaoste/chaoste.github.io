@@ -28,8 +28,6 @@ header a.active {
   text-shadow: 3px 3px 15px hsla(0, 0%, 0%, 1);
 }
 header .title {
-  font-weight: lighter;
-  font-size: 0.9em;
   margin: 0;
   padding-left: 0.5rem;
   height: 100%;
