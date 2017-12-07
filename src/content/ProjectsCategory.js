@@ -7,9 +7,10 @@ import ALL_PROJECTS from './projects/';
 
 class ProjectsCategory extends Component {
   renderContent() {
-    return 'UNDER CONSTRUCTION !!';
-    // TODO:
-    return this.props.projects.map((project, i) => (
+    const context = this.props.match.params.category;
+    return ALL_PROJECTS.filter(
+      project => project.info.context.toLowerCase() === context,
+    ).map((project, i) => (
       <Preview key={i} info={project.info}>
         <project.Content />
       </Preview>
