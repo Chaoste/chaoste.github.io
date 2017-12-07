@@ -5,9 +5,9 @@ yarn build
 cd build
 mv ./static ../static
 mv ./icons ../icons
-mv -r * ..
+mv * ..
 cd ..
-rm build
+rm -r build
 git add .
 git commit -m "Publish new version"
 git push
