@@ -13,7 +13,6 @@ import './App.css';
 
 class App extends Component {
   render() {
-    alert('HI');
     return (
       <Router>
         <div className="App">
