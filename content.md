@@ -1,11 +1,9 @@
 TODO:
 - Show programming language including icons
 - Add paper download links
-- Add pictures
 - Add application download links (description?)
 - CV
 - Developed websites
-- Projects categories (Hackathon, Bachelor/ Master, Others)
 
 
 
@@ -45,13 +43,13 @@ Master:
 
 
 TODO: http://notablemind.org/downloadbutton/
-TODO: https://www.npmjs.com/package/react-youtube
 
 Webseiten:
 - http://www.frank-sueltemeyer.com/
 - https://www.musikschule-laviolette-berlin.de/
 - http://lavioletterecords.com/
 - http://physio-gevelsberg.de/
+- Lebenslinien
 - http://wohnbar.ag/
 
 Berufserfahrungen:

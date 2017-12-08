@@ -11,12 +11,16 @@ class Projects extends Component {
     const categories = Object.keys(CONTEXT_GROUPS).map(
       key => CONTEXT_GROUPS[key],
     );
-    return categories.map(cat => {
-      return {
-        title: cat,
-        projects: ALL_PROJECTS.filter(project => project.info.context === cat),
-      };
-    });
+    return categories
+      .map(cat => {
+        return {
+          title: cat,
+          projects: ALL_PROJECTS.filter(
+            project => project.info.context === cat,
+          ).slice(0, 4),
+        };
+      })
+      .filter(cat => cat.projects.length > 0);
   }
 
   render() {

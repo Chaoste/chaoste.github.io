@@ -12,6 +12,10 @@ import * as project11 from './11-OptiHeat.jsx';
 import * as project12 from './12-HPITaler.jsx';
 import * as project13 from './13-TumorSegmentation.jsx';
 import * as project14 from './14-MASQuickpark.jsx';
+import * as project15 from './15-Lebenslinien.jsx';
+import * as project16 from './16-Wohnbar.jsx';
+import * as project17 from './17-LavioletteRecords.jsx';
+// import * as project18 from './18-FrankSueltemeyer.jsx';
 
 export default [
   project1,
@@ -28,4 +32,8 @@ export default [
   project12,
   project13,
   project14,
+  project15,
+  project16,
+  project17,
+  // project18,
 ];
