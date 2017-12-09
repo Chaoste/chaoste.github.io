@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { CONTEXT_WORK } from './Constants.js';
-import webappPreview from './images/19-TomTom-Logo.svg';
+import webappPreview from './images/21-Nexenio-Webapp-Logo.jpg';
 
 export const info = {
   title: 'NeXenio',
@@ -17,10 +17,10 @@ export class Content extends Component {
   render() {
     return (
       <div>
-        As part of the NeXboard team at NeXenio I\'m participating in the
-        development of a collaborative online Whiteboard. We're working with the
-        latest webapp technologies (e.g. React, Redux) and especially focus on
-        the support of all browsers.
+        As Junior Developer in the NeXboard team at NeXenio I\'m participating
+        in the development of a collaborative online Whiteboard. We're working
+        with the latest webapp technologies (e.g. React, Redux) and especially
+        focus on the support of all browsers.
       </div>
     );
   }

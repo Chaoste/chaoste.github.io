@@ -15,7 +15,10 @@ import * as project14 from './14-MASQuickpark.jsx';
 import * as project15 from './15-Lebenslinien.jsx';
 import * as project16 from './16-Wohnbar.jsx';
 import * as project17 from './17-LavioletteRecords.jsx';
-// import * as project18 from './18-FrankSueltemeyer.jsx';
+import * as project18 from './18-FrankSueltemeyer.jsx';
+import * as project19 from './19-HPI.jsx';
+import * as project20 from './20-TomTom.jsx';
+import * as project21 from './21-Nexenio.jsx';
 
 export default [
   project1,
@@ -26,8 +29,6 @@ export default [
   project6,
   project7,
   project8,
-  project9,
-  project10,
   project11,
   project12,
   project13,
@@ -35,5 +36,10 @@ export default [
   project15,
   project16,
   project17,
-  // project18,
+  project18,
+  project21,
+  project20,
+  project19,
+  project10,
+  project9,
 ];
