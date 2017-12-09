@@ -1,9 +1,9 @@
 TODO:
+- CV
+- Add links option in Preview
 - Show programming language including icons
 - Add paper download links
 - Add application download links (description?)
-- CV
-- Developed websites
 
 
 
