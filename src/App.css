@@ -18,22 +18,32 @@
 
 /* For animating transitions between routed components */
 
-.switch-wrapper {
+.transition-wrapper {
   position: relative;
+  z-index: 1;
   margin-top: 2.5rem;
   height: calc(100% - 2.5rem); /* Subtract header height */
 }
-
-.switch-wrapper > div {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
+.transition-item {
+  position: fixed;
+  top: 2.5rem;
   right: 0;
-  overflow: hidden;
+  left: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
 }
 
-.switch-wrapper > div:first-child {
-  position: relative;
-  height: 100%;
+.transition-appear {
+  opacity: 0;
+}
+
+.transition-appear.transition-appear-active {
+  opacity: 1;
+}
+.transition-leave {
+  opacity: 1;
+}
+
+.transition-leave.transition-leave-active {
+  opacity: 0;
 }

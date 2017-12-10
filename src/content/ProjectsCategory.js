@@ -18,7 +18,6 @@ class ProjectsCategory extends Component {
   }
 
   render() {
-    console.log(this.props);
     return (
       <div className="projects-category">
         <div className="content-container">{this.renderContent()}</div>

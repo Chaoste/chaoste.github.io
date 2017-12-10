@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
+import './Group.css';
+
 class Group extends Component {
   renderMedia(project, i) {
     if (project.info.youtubeId) {
