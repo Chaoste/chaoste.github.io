@@ -17,10 +17,10 @@ export class Content extends Component {
   render() {
     return (
       <div>
-        As Junior Developer in the NeXboard team at NeXenio I\'m participating
-        in the development of a collaborative online Whiteboard. We're working
-        with the latest webapp technologies (e.g. React, Redux) and especially
-        focus on the support of all browsers.
+        As Junior Developer in the NeXboard team at NeXenio I'm participating in
+        the development of a collaborative online Whiteboard. We're working with
+        the latest webapp technologies (e.g. React, Redux) and especially focus
+        on the support of all browsers.
       </div>
     );
   }
