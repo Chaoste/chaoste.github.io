@@ -24,6 +24,11 @@
   margin-top: 2.5rem;
   height: calc(100% - 2.5rem); /* Subtract header height */
 }
+
+.transition-wrapper > div {
+  overflow: hidden; /* Mysterious bugfix so the header won't move */
+}
+
 .transition-item {
   position: fixed;
   top: 2.5rem;
