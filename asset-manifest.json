@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.e6ad2f49.css",
   "main.css.map": "static/css/main.e6ad2f49.css.map",
-  "main.js": "static/js/main.ae992bbf.js",
-  "main.js.map": "static/js/main.ae992bbf.js.map",
+  "main.js": "static/js/main.3d72baf9.js",
+  "main.js.map": "static/js/main.3d72baf9.js.map",
   "static\\media\\11-OptiHeat-Webapp.jpg": "static/media/11-OptiHeat-Webapp.6fa29d4c.jpg",
   "static\\media\\14-MASQuickpark-Solution.jpg": "static/media/14-MASQuickpark-Solution.74cb16e3.jpg",
   "static\\media\\15-Lebenslinien-Webpage.jpg": "static/media/15-Lebenslinien-Webpage.bb958d99.jpg",
@@ -15,6 +15,5 @@
   "static\\media\\Bachelorpodium2016-Quickpark.png": "static/media/Bachelorpodium2016-Quickpark.164addc3.png",
   "static\\media\\YouTube_icon_full-color.svg": "static/media/YouTube_icon_full-color.0fdc197b.svg",
   "static\\media\\github.svg": "static/media/github.76d344f0.svg",
-  "static\\media\\header.svg": "static/media/header.c17aa247.svg",
-  "static\\media\\logo-github.png": "static/media/logo-github.3085a5db.png"
+  "static\\media\\header.svg": "static/media/header.c17aa247.svg"
 }
