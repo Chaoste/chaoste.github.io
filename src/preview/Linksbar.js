@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './Linksbar.css';
-import githubIcon from '../../res/github.svg';
+import githubIcon from '../res/github.svg';
 
 class Linksbar extends Component {
   renderButton(url, image) {

@@ -1,5 +1,9 @@
+header .background-container {
+  background: #666686;
+}
+
 .background-container {
-  background-image: url('../res/header.svg');
+  background: url('../res/header.svg') !important;
   overflow: hidden;
   height: 100%;
 }

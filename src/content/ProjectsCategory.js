@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './ProjectsCategory.css';
-import Preview from './preview/Preview.js';
+import Preview from '../preview/Preview.js';
 
 import ALL_PROJECTS from './projects/';
 

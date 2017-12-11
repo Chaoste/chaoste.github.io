@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import YouTubePlayer from 'youtube-player';
-import youtubeIcon from '../../res/YouTube_icon_full-color.svg';
+import youtubeIcon from '../res/YouTube_icon_full-color.svg';
 
 import './Youtube.css';
 
