@@ -9,7 +9,7 @@ export const info = {
   description: '',
   year: 2016,
   image: webpagePreview,
-  link: 'www.lavioletterecords.com',
+  link: 'http://www.lavioletterecords.com',
   context: CONTEXT_WEBPAGES,
 };
 

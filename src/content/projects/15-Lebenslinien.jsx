@@ -9,7 +9,7 @@ export const info = {
   description: '',
   year: 2011,
   image: webpagePreview,
-  link: 'www.lebenslinien-muenchen.de',
+  link: 'http://www.lebenslinien-muenchen.de',
   context: CONTEXT_WEBPAGES,
 };
 

@@ -6,11 +6,12 @@
 }
 
 .person .intro {
-  padding: 0 1rem;
+  padding: 0 1rem 2rem;
   background: rgba(255, 255, 255, 0.6);
   display: flex;
   justify-content: center;
   flex-direction: column;
+  text-align: left;
 }
 
 .person .image-container {
@@ -18,7 +19,11 @@
   justify-content: center;
   align-items: center;
   background: white;
-  padding-top: 2rem;
+  /*padding-top: 2rem;*/
+}
+
+.person p {
+  margin: 0 0 0.5rem;
 }
 
 @media only screen and (min-width: 36em) {
@@ -27,6 +32,10 @@
     border-radius: 0;
     margin-top: 0;
     flex-direction: row;
+  }
+
+  .person .title {
+    margin-top: 0;
   }
 
   .person .intro {
@@ -44,8 +53,6 @@
     padding-top: 0;
   }
 }
-
-/* TODO: remove padding-top */
 
 @media screen and (min-width: 52em) {
   .person .intro {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './Person.css';
-import personImage from '../res/Bachelorpodium2016-Quickpark.png';
+import personImage from '../res/Bachelorpodium2016-Quickpark 2.jpg';
 
 class Person extends Component {
   render() {
@@ -11,6 +11,7 @@ class Person extends Component {
           <img src={personImage} alt="Bachelorpodium 2016" />
         </div>
         <div className="intro">
+          <h2 className="title">Hi, I'm Thomas!</h2>
           <p>
             As a student from the HPI in Potsdam I've learned to work in teams
             with many different techniques and programming languages. I have

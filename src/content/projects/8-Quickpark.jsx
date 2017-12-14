@@ -9,6 +9,7 @@ export const info = {
   year: 2016,
   youtubeId: 'Wn-HTkPACvU',
   github: 'quickpark/quickpark',
+  link: 'https://hpi.de/friedrich/research/parking.html',
   context: CONTEXT_BACHELOR,
 };
 

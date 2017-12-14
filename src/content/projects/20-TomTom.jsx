@@ -9,7 +9,7 @@ export const info = {
   description: 'Student Trainee',
   year: 2017,
   image: logo,
-  link: 'www.tomtom.com',
+  link: 'https://www.tomtom.com',
   context: CONTEXT_WORK,
 };
 

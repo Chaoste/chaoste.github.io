@@ -9,7 +9,7 @@ export const info = {
   description: '',
   year: 2011,
   image: webpagePreview,
-  link: 'www.frank-sueltemeyer.com',
+  link: 'http://www.frank-sueltemeyer.com',
   context: CONTEXT_WEBPAGES,
 };
 

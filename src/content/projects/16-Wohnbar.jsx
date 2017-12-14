@@ -9,7 +9,7 @@ export const info = {
   description: '',
   year: 2017,
   image: webpagePreview,
-  link: 'www.wohnbar.ag',
+  link: 'http://www.wohnbar.ag',
   context: CONTEXT_WEBPAGES,
 };
 

@@ -9,7 +9,7 @@ export const info = {
   description: 'Developing a collaborative online Whiteboard',
   year: 2017,
   image: webappPreview,
-  link: 'www.nexenio.com',
+  link: 'https://nexenio.com',
   context: CONTEXT_WORK,
 };
 
