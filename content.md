@@ -1,5 +1,4 @@
 TODO:
-- Add links option in Preview
 - CV
 - Show programming language including icons
 - Add paper download links
