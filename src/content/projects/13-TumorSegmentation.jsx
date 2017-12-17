@@ -28,7 +28,7 @@ export class Content extends Component {
           a glioma we also worked on segmenting the tumor area. To solve this
           problem we used a Conditional Generative Adversarial Network (cGAN).
           Our last challenge was to predict a patient's survival rate. For this
-          brain scans, the segmented tumor area and the patients' age were taken
+          brain scans, the segmented tumor area and the patient's age were taken
           into account.
         </p>
       </div>
