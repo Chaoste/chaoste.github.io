@@ -17,13 +17,13 @@ export class Content extends Component {
     return (
       <div>
         <p>
-          This editor written in JAVA includes several drawing tools, selection
-          modes, filters and works with vector graphics so that the user is able
-          to edit his drawings later. As shown in the demo it also offers a
-          Newton fractal generator.
+          This editor written in Java includes several drawing tools, selection
+          modes and filters. It works with vectors enabling the user to edit his
+          drawings afterwards. The program provides various specific tools, such
+          as the Newton fractal generator demonstrated at the end of the clip.
         </p>
         <p>
-          For my Abitur (graduation from german high school) I wrote a 20-sided
+          For my Abitur (graduation from german high school) I wrote a 20-page
           paper describing the software structure, interesting insights and the
           historical background of drawing programs.
         </p>

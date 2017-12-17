@@ -20,15 +20,16 @@ export class Content extends Component {
         <p>
           In the lecture "Blockchain & BPM" we developed a prototypical,
           blockchain-free and proof-of-work-free cryptocurrency that uses the
-          Swirlds Hashgraph Consensus Algorithm. Therefore we built a wallet in
-          Kivy including the Consensus Algorithm itself and showing and
-          executing transactions in the network.
+          Swirlds Hashgraph Consensus Algorithm. For this we built a wallet in
+          Kivy which includes the consensus algorithm itself and shows and
+          executes transactions within the network.
         </p>
         <p>
           The related seminar report introduces the foundations of
           cryptocurrencies and alternatives to proof-of-work mechanisms,
           outlines our approach and evaluates our implementation. Additionally,
-          it covers some possible improvements to motivate for future work.
+          it covers some improvement possibilities to motivate future work on
+          this topic.
         </p>
       </div>
     );

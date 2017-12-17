@@ -19,14 +19,17 @@ export class Content extends Component {
         <p>
           The Brain Tumor Segmentation Challenge (BraTS challenge) encourages
           researchers to develop algorithms to support doctors in segmenting
-          brain tumors by providing a large dataset of brain scans of patients
-          who suﬀered of gliomas. Within this seminar we worked on several Deep
-          Learning techniques adressing this problem. Besides of simple tasks
-          like classifying the presence of a glioma and its type we also worked
-          on segmenting the tumor area and predicting the survival rate of
-          patients. For the last challenge we took several input data at once
-          into account: brain scans, the segmented tumor area and the patients
-          age.
+          brain tumors. BraTS provides a large dataset of brain scans from
+          patients who suﬀered of gliomas. Within this seminar we worked with
+          several Deep Learning techniques adressing this problem.
+        </p>
+        <p>
+          Besides for simple tasks like classifying the presence and the type of
+          a glioma we also worked on segmenting the tumor area. To solve this
+          problem we used a Conditional Generative Adversarial Network (cGAN).
+          Our last challenge was to predict a patient's survival rate. For this
+          brain scans, the segmented tumor area and the patients' age were taken
+          into account.
         </p>
       </div>
     );

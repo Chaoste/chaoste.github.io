@@ -16,11 +16,11 @@ export class Content extends Component {
     return (
       <div>
         <p>
-          This application is part of the Blog Intelligence project which crawls
-          blogs and extracts useful knowledge from their blog posts. The
-          provided data are used to show relations between posts from different
-          blogs. By looking for a phrase or quote you can see which blog posted
-          about this topic and on which day the post was published.
+          This application is part of the BlogIntelligence Crawler project which
+          searches through blogs and extracts useful knowledge from their blog
+          posts. The provided data is used to show relations between posts from
+          different blogs. By looking for a phrase or quote you can see which
+          blog posted about this topic and on which day the post was published.
         </p>
       </div>
     );

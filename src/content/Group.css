@@ -25,7 +25,8 @@
   justify-content: center;
   align-items: center;
   transition: all 200ms;
-  background-color: rgba(200, 200, 200, 0.5);
+  /* background-color: rgba(200, 200, 200, 0.5); */
+  background-color: rgba(255, 255, 255, 0.7);
   color: black;
   text-shadow: 0px 0px 20px white;
 }
@@ -50,18 +51,16 @@
   }
 
   .group:nth-child(2n) .title {
-    background-color: rgba(181, 181, 220, 0.3);
+    background-color: rgba(255, 255, 255, 0.7);
+    /* background-color: rgba(181, 181, 220, 0.3); */
     color: black;
     text-shadow: 0px 0px 20px white;
   }
 
-  .group:nth-child(2n):hover .title {
+  .group:hover .title {
+    background-color: rgba(102, 102, 134, 0.9);
     color: white;
     text-shadow: 0px 0px 20px black;
-  }
-
-  .group:hover .title {
-    background-color: rgba(181, 181, 220, 0.7);
   }
 }
 

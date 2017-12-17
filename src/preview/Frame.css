@@ -45,6 +45,21 @@
   border-right-color: #8585a5;
 }
 
+/* Show triangles alternately left and right */
+.preview:nth-child(2n + 1) .frame-container .top.left.corner {
+  border-left-color: transparent;
+}
+.preview:nth-child(2n + 1) .frame-container .bottom.right.corner {
+  border-right-color: transparent;
+}
+
+.preview:nth-child(2n) .frame-container .top.right.corner {
+  border-right-color: transparent;
+}
+.preview:nth-child(2n) .frame-container .bottom.left.corner {
+  border-left-color: transparent;
+}
+
 /* Leave out first and last one */
 .preview:first-child .frame-container .top.corner,
 .preview:last-child .frame-container .bottom.corner {
