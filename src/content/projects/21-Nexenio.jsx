@@ -4,7 +4,7 @@ import { CONTEXT_WORK } from './Constants.js';
 import webappPreview from './images/21-Nexenio-Webapp-Logo.jpg';
 
 export const info = {
-  title: 'NeXenio',
+  title: 'neXenio',
   language: ['HTML', 'CSS', 'Javascript'],
   description: 'Developing a collaborative online Whiteboard',
   year: 2017,
