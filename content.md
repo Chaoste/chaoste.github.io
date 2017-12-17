@@ -1,4 +1,5 @@
 TODO:
+- FIX hovering home button
 - CV
 - Show programming language including icons
 - Add paper download links
