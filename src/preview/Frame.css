@@ -1,0 +1,53 @@
+.frame-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.frame-container .corner {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.frame-container .top.corner {
+  top: 0;
+  border-bottom: 2rem solid transparent;
+}
+
+.frame-container .left.corner {
+  left: 0;
+  border-left: 2rem solid #8585a5;
+}
+
+.frame-container .right.corner {
+  right: 0;
+  border-right: 2rem solid #8585a5;
+}
+
+.frame-container .bottom.corner {
+  bottom: 0;
+  border-top: 2rem solid transparent;
+}
+
+/* Colors */
+
+.frame-container .top.corner {
+  border-left-color: #b9b9df;
+  border-right-color: #b9b9df;
+}
+
+.frame-container .bottom.corner {
+  border-left-color: #8585a5;
+  border-right-color: #8585a5;
+}
+
+/* Leave out first and last one */
+.preview:first-child .frame-container .top.corner,
+.preview:last-child .frame-container .bottom.corner {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}

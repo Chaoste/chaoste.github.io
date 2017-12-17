@@ -1,18 +1,17 @@
 .preview {
+  position: relative;
   width: 100%;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  /*background: #ddd;*/
-  /*background: linear-gradient(180deg, #fff 0%, #eee 80%, #aaa 100%);*/
   background: white;
   flex-direction: column-reverse;
 }
 
 .preview:nth-child(2n) {
-  background: rgb(181, 181, 220);
+  background: rgb(220, 220, 239);
 }
 
 @media screen and (min-width: 52em) {
@@ -20,6 +19,24 @@
     flex-direction: row;
     min-height: 30rem;
   }
+}
+
+/*
+  Gleichschenklig:
+  x: Höhe des Dreiecks
+  y: Seitenlänge des Dreiecks
+  Sei x ggb. -> y = sqrt(x²/3)
+*/
+.preview .arrow-right {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 8.6px solid transparent;
+  border-bottom: 8.6px solid transparent;
+  border-left: 10px solid #808080;
+  margin-left: 0.5rem;
+  margin-right: 0.7rem;
+  margin-bottom: 3px;
 }
 
 .about {
