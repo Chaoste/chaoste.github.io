@@ -11,13 +11,22 @@ class Image extends Component {
     this.setState({
       open: true,
     });
+    /* Hack for preventing scrolling while modal is open */
+    document.querySelector('body').style.overflow = 'hidden';
   };
 
   disablePreview = () => {
     this.setState({
       open: false,
     });
+    /* Hack for preventing scrolling while modal is open */
+    document.querySelector('body').style.overflow = 'auto';
   };
+
+  componentWillUnmount() {
+    /* Hotfix for click nav link while modal is open */
+    document.querySelector('body').style.overflow = 'auto';
+  }
 
   render() {
     return (
@@ -29,9 +38,7 @@ class Image extends Component {
           className={`modalWrapper ${this.state.open ? 'open' : 'hidden'}`}
           onClick={this.disablePreview}
         >
-          <a className="modalDialog">
-            <img alt="Project Preview" src={this.props.info.image} />
-          </a>
+          <img alt="Project Preview" src={this.props.info.image} />
         </div>
       </div>
     );
