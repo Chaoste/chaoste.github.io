@@ -9,7 +9,7 @@ header .background-container {
 }
 
 .home .background-container {
-  background-position-y: -2.5rem;
+  background-position-y: -2.5rem !important;
   height: auto;
 }
 

@@ -34,7 +34,7 @@ class Preview extends Component {
         {this.renderMedia()}
         <div className="about">
           <div className="title">
-            <div class="arrow-right" />
+            <div className="arrow-right" />
             {this.props.info.title}
           </div>
           <div className="description">{this.props.info.description}</div>
