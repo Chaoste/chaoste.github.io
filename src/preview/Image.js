@@ -21,7 +21,7 @@ class Image extends Component {
     this.setState({
       open: true,
     });
-    /* Hack for preventing scrolling while modal is open */
+    /* Hack for preventing scrolling while modal is open, but show scrollbar (works in Chrome & Edge) */
     this.scrollTop = this.htmlElement.scrollTop || this.bodyElement.scrollTop;
     this.htmlElement.className = 'noscroll';
     this.htmlElement.style.top = `-${this.scrollTop}px`;
@@ -31,13 +31,12 @@ class Image extends Component {
     this.setState({
       open: false,
     });
-    /* Hack for preventing scrolling while modal is open */
     this.htmlElement.className = '';
     window.scrollTo(0, this.scrollTop);
   };
 
   componentWillUnmount() {
-    /* Hotfix for click nav link while modal is open */
+    /* Remove settings if closing modal by clicking on nav link */
     this.htmlElement.className = '';
   }
 
