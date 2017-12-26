@@ -9,12 +9,12 @@
   transition: all 100ms ease-in;
 }
 
-.imageContainer img {
+.imageContainer .previewImg img {
   box-shadow: 3px 3px 8px rgba(100, 100, 100, 0.2);
   transition: all 100ms ease-in;
 }
 
-.imageContainer:hover img {
+.imageContainer:hover .previewImg img {
   box-shadow: 3px 3px 8px rgba(100, 100, 100, 0.5);
 }
 
@@ -70,8 +70,51 @@
   display: none;
 }
 
-.modalWrapper img {
+/*
+  CSS hack for giving the text same size as the dynamically siyed image
+  https://stackoverflow.com/questions/5485341/css-div-width-depending-on-image-size-above
+*/
+.modalWrapper .table-wrapper {
+  display: table;
   max-height: 90%;
   max-width: 90%;
+}
+
+.modalWrapper .linked-image {
+  display: block;
+  text-decoration: none;
+}
+
+.modalWrapper .linked-image .image {
+  max-height: calc(90vh - 6rem);
+  max-width: 90vw;
   box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5);
+}
+
+.modalWrapper .linked-image .invitation {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  background: #a4a4c4;
+  box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5);
+  color: black;
+  text-decoration: none;
+  transition: all 200ms;
+}
+
+.modalWrapper .linked-image .invitation img {
+  margin-bottom: -0.1rem;
+  margin-right: 0.5rem;
+}
+
+.modalWrapper .linked-image:hover .invitation {
+  background: #646484;
+  color: white;
+}
+
+.modalWrapper .linked-image .invitation img {
+  transition: filter 200ms;
+}
+
+.modalWrapper .linked-image:hover .invitation img {
+  filter: invert(100%);
 }

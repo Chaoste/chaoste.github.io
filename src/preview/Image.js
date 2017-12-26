@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import homeIcon from '../res/home.svg';
+
 import './Image.css';
 
 class Image extends Component {
@@ -50,7 +52,24 @@ class Image extends Component {
           className={`modalWrapper ${this.state.open ? 'open' : 'hidden'}`}
           onClick={this.disablePreview}
         >
-          <img alt="Project Preview" src={this.props.info.image} />
+          <div className="table-wrapper">
+            <a
+              href={this.props.info.link}
+              className="linked-image"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                className="image"
+                alt="Project Preview"
+                src={this.props.info.image}
+              />
+              <div className="invitation">
+                <img alt="Project Page" src={homeIcon} />
+                Visit the project!
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     );

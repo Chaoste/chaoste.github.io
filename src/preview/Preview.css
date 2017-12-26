@@ -27,16 +27,22 @@
   y: Seitenlänge des Dreiecks
   Sei x ggb. -> y = sqrt(x²/3)
 */
-.preview .arrow-right {
+.preview .arrow {
   display: inline-block;
   width: 0;
   height: 0;
   border-top: 8.6px solid transparent;
   border-bottom: 8.6px solid transparent;
-  border-left: 10px solid #808080;
-  margin-left: 0.5rem;
+  border-left: 10px solid #a4a4c4;
+  margin-left: 0.1rem;
   margin-right: 0.7rem;
   margin-bottom: 3px;
+}
+
+.preview .arrow.left {
+  margin: 0 0 3px 0;
+  border-right: 10px solid #646484;
+  border-left: none;
 }
 
 .about {

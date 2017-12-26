@@ -21,12 +21,12 @@
 
 .frame-container .left.corner {
   left: 0;
-  border-left: 2rem solid #8585a5;
+  border-left: 2rem solid #646484;
 }
 
 .frame-container .right.corner {
   right: 0;
-  border-right: 2rem solid #8585a5;
+  border-right: 2rem solid #646484;
 }
 
 .frame-container .bottom.corner {
@@ -42,8 +42,8 @@
 }
 
 .frame-container .bottom.corner {
-  border-left-color: #8585a5;
-  border-right-color: #8585a5;
+  border-left-color: #646484;
+  border-right-color: #646484;
 }
 
 /* Show triangles alternately left and right */
