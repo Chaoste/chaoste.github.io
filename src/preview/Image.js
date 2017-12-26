@@ -29,12 +29,19 @@ class Image extends Component {
     this.htmlElement.style.top = `-${this.scrollTop}px`;
   };
 
-  disablePreview = () => {
+  disablePreview = event => {
+    if (
+      this.props.info.link &&
+      event.target &&
+      event.target.className.indexOf('modalWrapper') === -1
+    )
+      return true;
     this.setState({
       open: false,
     });
     this.htmlElement.className = '';
     window.scrollTo(0, this.scrollTop);
+    return false;
   };
 
   componentWillUnmount() {
@@ -55,16 +62,18 @@ class Image extends Component {
           <div className="table-wrapper">
             <a
               href={this.props.info.link}
-              className="linked-image"
               target="_blank"
               rel="noopener"
+              className="linked-image"
             >
               <img
                 className="image"
                 alt="Project Preview"
                 src={this.props.info.image}
               />
-              <div className="invitation">
+              <div
+                className={`invitation ${this.props.info.link ? '' : 'hidden'}`}
+              >
                 <img alt="Project Page" src={homeIcon} />
                 Visit the project!
               </div>

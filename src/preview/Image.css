@@ -37,7 +37,9 @@
 }
 
 .imageContainer a.previewImg {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   overflow: hidden;
   height: 100%;
@@ -46,9 +48,8 @@
 }
 
 .imageContainer a.previewImg img {
-  /*height: 100%;*/
-  max-height: calc(100% - 2rem);
-  max-width: calc(100% - 2rem);
+  max-height: calc(100% - 1rem);
+  max-width: calc(100% - 1rem);
 }
 
 .modalWrapper {
@@ -76,13 +77,18 @@
 */
 .modalWrapper .table-wrapper {
   display: table;
-  max-height: 90%;
-  max-width: 90%;
+  /* max-height: 90%;
+  max-width: 90%; */
 }
 
 .modalWrapper .linked-image {
   display: block;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.modalWrapper .linked-image.hidden {
+  display: none;
 }
 
 .modalWrapper .linked-image .image {
